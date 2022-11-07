@@ -3,5 +3,5 @@
 # print(result)
 
 my_text = "This text is a test"
-result = my_text.rindex("t")
+result = my_text.index("T")
 print(result)

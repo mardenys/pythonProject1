@@ -1,3 +1,3 @@
 text = "ABCDEFGHJIKLM"
-fragment = text[::-1]
+fragment = text[0:3]
 print(fragment)
