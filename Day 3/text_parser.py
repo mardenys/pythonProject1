@@ -41,4 +41,5 @@ print(f"This is your text reverted: '{inverted_text}'")
 print("\n")
 print("LOOKING FOR A WORD PYTHON")
 search_result = "python" in text
-print(f"Is python in your text: {search_result}")
+dic = {True: "was", False: "was not"}
+print(f"The word 'Python' {dic[search_result]} found in your text")
