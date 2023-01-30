@@ -1,5 +1,4 @@
 from random import shuffle
-from random import choice
 
 # initial list
 sticks = ['-', '--', '---', '----']
@@ -7,6 +6,7 @@ sticks = ['-', '--', '---', '----']
 def mix(my_list):
     shuffle(my_list)
     return(my_list)
+
 # choose number
 def try_your_luck():
     a_try = ''
@@ -15,6 +15,7 @@ def try_your_luck():
 
     return int(a_try)
 #check players try
+
 def verify_try(a_list, a_try):
     if a_list[a_try - 1] == '-':
         print("Wash the dishes")
@@ -27,12 +28,3 @@ mixed_sticks = mix(sticks)
 selection = try_your_luck()
 verify_try(mixed_sticks, selection)
 
-#initial numbers
-
-
-def throw_dice(dice1,dice2):
-    choice(dice1,dice2)
-    return (dice1,dice2)
-
-
-def roll_result

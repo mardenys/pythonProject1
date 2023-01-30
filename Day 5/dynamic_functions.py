@@ -11,8 +11,8 @@ def check_3_digits(list):
     return three_digits_list
 
 result = check_3_digits([532, 99, 380])
-# print(type(result))
-# print(result)
+print(type(result))
+print(result)
 
 def all_positives(list):
     for n in list:
